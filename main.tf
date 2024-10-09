@@ -1,8 +1,6 @@
 terraform {
-  backend "s3" {
-    bucket         = "s306022024"
-    key            = "terraform.tfstate"
-    region         = "us-east-1"
+  backend "local" {
+    path = "terraform.tfstate"  # Esto almacenará el archivo de estado localmente en la misma carpeta donde estás ejecutando Terraform
   }
 }
 

@@ -10,10 +10,11 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "Name of the existing EC2 key pair"
-  default = "2023"
+  default = "test_keys"
 }
 
 
 variable "name" {
-  description = "prod-instance"
+  description = "Name of EC2 Intance"
+  default = "prod-instance"
 }

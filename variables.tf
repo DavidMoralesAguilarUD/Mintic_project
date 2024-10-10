@@ -15,5 +15,5 @@ variable "key_name" {
 
 
 variable "name" {
-  description = "Name of EC2 Intance"
+  description = "prod-instance"
 }
